@@ -1,0 +1,15 @@
+#include<stdio.h>
+#define MAX 1000
+int main(void)
+{
+	int a,b,n,m;
+	for(n=1;n<=MAX;n++)
+		for(m=1;m<=MAX;m++)
+			{
+				a=(n*n+n)/2;
+				b=m*m;
+				if(a==b)
+					printf("a=%d,b=%d\n",a,b);
+			}
+	return 0;
+}
